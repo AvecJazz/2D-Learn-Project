@@ -8,6 +8,10 @@ public class Ground : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Box")) 
         {
+            if (collision.gameObject.GetComponent<Loot>() != null) 
+            {
+                collision.gameObject.GetComponent<Loot>().CalculateAndDropItem();
+            }
             Destroy(collision.gameObject);
         }
     }

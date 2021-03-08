@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7932502151828300195}
   - component: {fileID: 7932502151828300194}
   - component: {fileID: 9025678789640846535}
+  - component: {fileID: 5304836360232659825}
   m_Layer: 0
   m_Name: Box
   m_TagString: Box
@@ -145,3 +146,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5304836360232659825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7932502151828300189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6a37afcf2bf846a7553d81ef5dc83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropChance: 0.1
+  Items:
+  - name: "\u041C\u043E\u043D\u0435\u0442\u043A\u0430"
+    item: {fileID: 2115414564897090424, guid: 4bf8279dc2243d34ea373c890ab8c54e, type: 3}
+    itemDropChance: 0.9
+  - name: "\u0421\u0435\u0440\u0434\u0435\u0447\u043A\u043E"
+    item: {fileID: 2346781256873785203, guid: ccae63c121e6ab64f955a03fd60d860e, type: 3}
+    itemDropChance: 0.05

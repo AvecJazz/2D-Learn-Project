@@ -65,15 +65,19 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Box.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\EndGame.cs" />
+    <Compile Include="Assets\Scripts\GameController\EndGame.cs" />
+    <Compile Include="Assets\Scripts\GameController\Score.cs" />
+    <Compile Include="Assets\Scripts\GameController\Spawner.cs" />
+    <Compile Include="Assets\Scripts\GameController\Timer.cs" />
+    <Compile Include="Assets\Scripts\GameController\WorldCreator.cs" />
     <Compile Include="Assets\Scripts\Ground.cs" />
-    <Compile Include="Assets\Scripts\HPBar.cs" />
-    <Compile Include="Assets\Scripts\Health.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Spawner.cs" />
-    <Compile Include="Assets\Scripts\Timer.cs" />
-    <Compile Include="Assets\Scripts\WorldCreator.cs" />
+    <Compile Include="Assets\Scripts\Items\Coin.cs" />
+    <Compile Include="Assets\Scripts\Items\Heart.cs" />
+    <Compile Include="Assets\Scripts\Loot.cs" />
+    <Compile Include="Assets\Scripts\Player\HPBar.cs" />
+    <Compile Include="Assets\Scripts\Player\Health.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
